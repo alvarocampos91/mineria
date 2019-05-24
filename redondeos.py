@@ -1,0 +1,85 @@
+numero1 = 0.1395349
+numero2 = 0.3562791
+numero3 = 0.0186047
+numero4 = 0.0372093
+numero5 = 0.0930233 
+numero6 = 0.3488372
+numero7 = 0.0065116
+
+n1d1 = round(numero1, 1)
+n1d2 = round(numero1, 2)
+n1d3 = round(numero1, 3)
+n1d4 = round(numero1, 4)
+n1d5 = round(numero1, 5)
+n1d6 = round(numero1, 6)
+
+n2d1 = round(numero2, 1)
+n2d2 = round(numero2, 2)
+n2d3 = round(numero2, 3)
+n2d4 = round(numero2, 4)
+n2d5 = round(numero2, 5)
+n2d6 = round(numero2, 6)
+
+n3d1 = round(numero3, 1)
+n3d2 = round(numero3, 2)
+n3d3 = round(numero3, 3)
+n3d4 = round(numero3, 4)
+n3d5 = round(numero3, 5)
+n3d6 = round(numero3, 6)
+
+n4d1 = round(numero4, 1)
+n4d2 = round(numero4, 2)
+n4d3 = round(numero4, 3)
+n4d4 = round(numero4, 4)
+n4d5 = round(numero4, 5)
+n4d6 = round(numero4, 6)
+
+n5d1 = round(numero5, 1)
+n5d2 = round(numero5, 2)
+n5d3 = round(numero5, 3)
+n5d4 = round(numero5, 4)
+n5d5 = round(numero5, 5)
+n5d6 = round(numero5, 6)
+
+n6d1 = round(numero6, 1)
+n6d2 = round(numero6, 2)
+n6d3 = round(numero6, 3)
+n6d4 = round(numero6, 4)
+n6d5 = round(numero6, 5)
+n6d6 = round(numero6, 6)
+
+n7d1 = round(numero7, 1)
+n7d2 = round(numero7, 2)
+n7d3 = round(numero7, 3)
+n7d4 = round(numero7, 4)
+n7d5 = round(numero7, 5)
+n7d6 = round(numero7, 6)
+
+sumaReal = round(numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero7, 6)
+suma1 = round(n1d1 + n2d1 + n3d1 + n4d1 + n5d1 + n6d1 + n7d1, 1)
+suma2 = round(n1d2 + n2d2 + n3d2 + n4d2 + n5d2 + n6d2 + n7d2, 2)
+suma3 = round(n1d3 + n2d3 + n3d3 + n4d3 + n5d3 + n6d3 + n7d3, 3)
+suma4 = round(n1d4 + n2d4 + n3d4 + n4d4 + n5d4 + n6d4 + n7d4, 4)
+suma5 = round(n1d5 + n2d5 + n3d5 + n4d5 + n5d5 + n6d5 + n7d5, 5)
+suma6 = round(n1d6 + n2d6 + n3d6 + n4d6 + n5d6 + n6d6 + n7d6, 6)
+
+print("_____________________________________________________________________________________________________________")
+print("|1 \t\t |2 \t\t |3 \t\t |4 \t\t |5 \t\t |6 \t\t |7         |")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", numero1, " \t |", n1d1, " \t |", n1d2, " \t |", n1d3, " \t |", n1d4, " \t |", n1d5, " \t |", n1d6, "|")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", numero2, " \t |", n2d1, " \t |", n2d2, " \t |", n2d3, " \t |", n2d4, " \t |", n2d5, " \t |", n2d6, "|")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", numero3, " \t |", n3d1, " \t |", n3d2, " \t |", n3d3, " \t |", n3d4, " \t |", n3d5, " \t |", n3d6, "|")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", numero4, " \t |", n4d1, " \t |", n4d2, " \t |", n4d3, " \t |", n4d4, " \t |", n4d5, " \t |", n4d6, "|")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", numero5, " \t |", n5d1, " \t |", n5d2, " \t |", n5d3, " \t |", n5d4, " \t |", n5d5, " \t |", n5d6, "|")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", numero6, " \t |", n6d1, " \t |", n6d2, " \t |", n6d3, " \t |", n6d4, " \t |", n6d5, " \t |", n6d6, "|")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", numero7, " \t |", n7d1, " \t |", n7d2, " \t |", n7d3, " \t |", n7d4, " \t |", n7d5, " \t |", n7d6, "|")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+print("|", sumaReal, " \t |", suma1, " \t |", suma2, " \t |", suma3, " \t |", suma4, " \t |", suma5, " \t |", suma6, "     |")
+print("|________________|_______________|_______________|_______________|_______________|_______________|__________|")
+input()
